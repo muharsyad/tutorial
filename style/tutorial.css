@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+    /* CSS THEME PRIMARY COLORS*/
+    --color-primary-100: #005ea6;
+    --color-primary-200: #396eb0;
+    --color-primary-300: #577fba;
+    --color-primary-400: #7190c4;
+    --color-primary-500: #89a2ce;
+    --color-primary-600: #a1b4d8;
+    
+    /* CSS THEME SURFACE COLORS */
+    --color-surface-100: #f6f7fb;
+    --color-surface-200: #f7f8fb;
+    --color-surface-300: #f8f9fc;
+    --color-surface-400: #f9fafc;
+    --color-surface-500: #fafbfd;
+    --color-surface-600: #fbfbfd;
+    
+    /* CSS THEME MIXED SURFACE COLORS */
+    --color-surface-mixed-100: #e2e6f3;
+    --color-surface-mixed-200: #e5e9f4;
+    --color-surface-mixed-300: #e8ecf6;
+    --color-surface-mixed-400: #eceef7;
+    --color-surface-mixed-500: #eff1f8;
+    --color-surface-mixed-600: #f2f4fa;
+
+    --margin-100: 100px;
+    --padding-100: 100px;
+
+    --color-white: #ffffff;
+}
+
+* {
+    background-color: var(--color-surface-300);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#navbar {
+    background-color: var(--color-surface-100);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    z-index: 1;
+    padding: 7px 14px;
+}
+
+
+#navbar a {
+    float: left;
+    box-sizing: border-box;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+#navbar i {
+    font-size: 20px;
+    color: var(--color-primary-100);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#navbar i:hover {
+    background-color: var(--color-surface-mixed-300);
+    
+}
+
